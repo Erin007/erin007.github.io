@@ -68,7 +68,7 @@ section {
 
 }
 
-#Erin_photo {
+#erin_photo {
   float: right;
   width: 35%;
   height: auto;
@@ -77,7 +77,7 @@ section {
   margin-left: -1000px;
 }
 
-#Erin_photo img {
+#erin_photo img {
   border: 6px solid black;
   border-radius: 15px;
 }
