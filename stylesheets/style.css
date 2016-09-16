@@ -1,0 +1,96 @@
+header h1{
+  font-size: 7em;
+  float: left;
+  margin-left: 3%;
+}
+
+header, footer {
+  background-color: #4abdac;
+  width: 100%;
+  display: inline-block;
+  font-family: Candal;
+  color: black;
+  padding: 3%;
+}
+
+footer {
+  clear:both;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+header nav ul li{
+  display: inline-block;
+  width: 3%;
+  padding-top: 4%;
+  padding-left: 2%;
+  margin-left: 5%;
+  font-size: 2em;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: white;
+}
+
+p a:hover{
+  color: #4abdac;
+}
+section {
+  font-family: Covered by your Grace;
+  font-size: 3em;
+  text-align: left;
+  padding-left: 6%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.About {
+  margin-bottom: 400px;
+
+}
+.About section {
+  width: 49%;
+  float: left;
+
+}
+
+#Erin_photo {
+  float: right;
+  width: 35%;
+  height: auto;
+  max-height: 10px;
+  text-align: left;
+  margin-left: -1000px;
+}
+
+#Erin_photo img {
+  border: 6px solid black;
+  border-radius: 15px;
+}
+
+#Hello_World {
+  float: right;
+  padding-top: -10px;
+}
+
+.Index section p{
+  float: left
+}
+
+.About section p:nth-child(2), .About section p:nth-child(4) {
+  color: white;
+}
