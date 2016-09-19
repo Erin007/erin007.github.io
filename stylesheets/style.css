@@ -48,6 +48,7 @@ header a:hover {
 p a:hover{
   color: #4abdac;
 }
+
 section {
   font-family: Covered by your Grace;
   font-size: 3em;
@@ -58,14 +59,14 @@ section {
   padding-bottom: 3%;
 }
 
+/* About page specifics */
 .about {
   margin-bottom: 400px;
-
 }
+
 .about section {
   width: 49%;
   float: left;
-
 }
 
 #erin_photo {
@@ -82,32 +83,38 @@ section {
   border-radius: 15px;
 }
 
-#hello_world {
-  float: right;
-  padding-top: -10px;
-}
+/* Index page specifics */
 
-.hello_typing {
-  color: red;
+.index p:nth-child(1){
+  color: #4abdac;
   font-family: Roboto Mono, monospace;
   float: right;
   width: 100%;
-  z-index: 2;
+  font-size: 3em;
+  position: absolute;
+  top: 28%;
+  left: 28%;
 }
 
-.Index section p{
-  float: left
-}
 
-.Article section p:nth-child(2), .About section p:nth-child(4), .index section p:nth-child(4) {
+/*.article section p:nth-child(2), .About section p:nth-child(4), .index section p:nth-child() {
   color: white;
-}
+}*/
 
 .index {
   margin-top: 3%;
+  position: relative;
+  left: 0;
+  top: 0;
 }
+
 .index img {
+  float: right;
   margin-top: -5%;
   margin-left: -4%;
   padding-left: 5%;
+  z-index: -1;
+  position: relative;
+  top: 0;
+  left: 0;
 }
