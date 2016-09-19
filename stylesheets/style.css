@@ -88,6 +88,7 @@ section {
 }
 
 #hello_typing {
+  color: red;
   font-family: Roboto Mono, monospace;
   float: right;
   width: 100%;
