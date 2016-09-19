@@ -58,11 +58,11 @@ section {
   padding-bottom: 3%;
 }
 
-.About {
+.about {
   margin-bottom: 400px;
 
 }
-.About section {
+.about section {
   width: 49%;
   float: left;
 
@@ -87,7 +87,7 @@ section {
   padding-top: -10px;
 }
 
-#hello_typing {
+.hello_typing {
   color: red;
   font-family: Roboto Mono, monospace;
   float: right;
