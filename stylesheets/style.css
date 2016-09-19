@@ -84,7 +84,6 @@ section {
 }
 
 /* Index page specifics */
-
 .index p:nth-child(1){
   color: #4abdac;
   font-family: Roboto Mono, monospace;
@@ -97,27 +96,13 @@ section {
   white-space: nowrap;
   overflow: hidden;
   margin: 0 auto;
-  animation: type 10s steps(50, end);
+  animation: type 5s steps(60, end);
+  border-right: solid #b6e4dd;
 }
-
-
-
-
 
 @keyframes type{
   from { width: 0; }
 }
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
 
 /*.article section p:nth-child(2), .About section p:nth-child(4), .index section p:nth-child() {
   color: white;
@@ -139,4 +124,10 @@ section {
   position: relative;
   top: 0;
   left: 0;
+}
+
+/* Porfolio page specifics */
+.portfolio article {
+  width: 100%;
+  border-bottom: solid 4px black;
 }
