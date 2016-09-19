@@ -89,11 +89,33 @@ section {
   color: #4abdac;
   font-family: Roboto Mono, monospace;
   float: right;
-  width: 100%;
+  width: 17%;
   font-size: 3em;
   position: absolute;
   top: 28%;
-  left: 28%;
+  left: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  animation: type 10s steps(50, end);
+}
+
+
+
+
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
 }
 
 
