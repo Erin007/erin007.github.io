@@ -131,3 +131,14 @@ section {
   width: 100%;
   border-bottom: solid 4px black;
 }
+
+.portfolio img {
+  width: 20%;
+}
+.portfolio h3 {
+  font-family: Candal;
+  padding-top: 2%;
+  width: 80%;
+  text-align: left;
+  float: right;
+}
