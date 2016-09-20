@@ -131,6 +131,11 @@ section {
 }
 
 /* Porfolio page specifics */
+.portfolio div {
+  float: left;
+}
+
+
 .portfolio article {
   width: 100%;
   border-bottom: double 8px  #4abdac;
