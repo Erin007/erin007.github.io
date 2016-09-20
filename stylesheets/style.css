@@ -45,6 +45,10 @@ header a:hover {
   color: white;
 }
 
+p a{
+  text-shadow: 2px 2px 2px #b6e4dd
+}
+
 p a:hover{
   color: #4abdac;
 }
@@ -55,7 +59,7 @@ section {
   text-align: left;
   padding-left: 6%;
   padding-right: 3%;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 3%;
 }
 
@@ -129,31 +133,35 @@ section {
 /* Porfolio page specifics */
 .portfolio article {
   width: 100%;
-  border-bottom: solid 4px black;
+  border-bottom: double 8px  #4abdac;
   margin: auto;
-  /*display: inline-block;*/
+  display: inline-block;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .portfolio img {
   width: 20%;
   float: left;
+  padding-top: 5%;
 }
 .portfolio h3 {
   font-family: Candal;
-  padding-top: 2%;
   width: 100%;
-  text-align: left;
   float: left;
 }
 
-.portfolio p, .portfolio ul, .portfolio li {
-  padding-top: 2%;
-  width: 76%;
-  text-align: left;
+.portfolio p{
+  width: 78%;
   float: right;
-  list-style-type: disc;
+  padding-top: 2%;
 }
+.portfolio p:nth-of-type(2), .portfolio p:nth-of-type(3), .portfolio p:nth-of-type(4){
+  width: 72%;
+}
+.portfolio p:nth-of-type(5){
+  width: 98%;
+  padding-left: 2%;
 
-.portfolio ul {
-  width: 90%;
 }
