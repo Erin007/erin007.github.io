@@ -130,15 +130,30 @@ section {
 .portfolio article {
   width: 100%;
   border-bottom: solid 4px black;
+  margin: auto;
+  /*display: inline-block;*/
 }
 
 .portfolio img {
   width: 20%;
+  float: left;
 }
 .portfolio h3 {
   font-family: Candal;
   padding-top: 2%;
-  width: 80%;
+  width: 100%;
+  text-align: left;
+  float: left;
+}
+
+.portfolio p, .portfolio ul, .portfolio li {
+  padding-top: 2%;
+  width: 76%;
   text-align: left;
   float: right;
+  list-style-type: disc;
+}
+
+.portfolio ul {
+  width: 90%;
 }
