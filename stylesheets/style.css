@@ -152,6 +152,9 @@ section {
   padding-left: 5%;
 }
 
+#flower{
+  padding-top: 5%;
+}
 .portfolio article:nth-child(2) img{
   padding-top: 5%;
   width: 20%;
