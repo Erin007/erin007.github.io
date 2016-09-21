@@ -10,7 +10,7 @@ header, footer {
   display: inline-block;
   font-family: Candal;
   color: black;
-  padding: 3%;
+  padding: 2%;
 }
 
 footer {
@@ -42,7 +42,7 @@ a {
   color: black;
 }
 
-header a:hover {
+header a:hover, h2 a:hover{
   color: white;
 }
 
@@ -111,10 +111,6 @@ section {
 @keyframes type{
   from { width: 0; }
 }
-
-/*.article section p:nth-child(2), .About section p:nth-child(4), .index section p:nth-child() {
-  color: white;
-}*/
 
 .index {
   margin-top: 3%;
@@ -209,15 +205,21 @@ aside {
 }
 
 .blog article:nth-last-of-type(3), .blog article:nth-last-of-type(1){
-  border-left: double 2px #4abdac;
+  border-left: double 2px black;
 }
 
 h2 {
     font-family: Candal;
     background: #4abdac;
     padding: 2%;
+    border-radius: 2%;
 }
 
 .blog .hide {
   line-height: .75
+}
+
+.blog img {
+  border: solid 3px #4abdac;
+  border-radius: 100%;
 }
