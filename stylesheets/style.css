@@ -223,3 +223,11 @@ h2 {
   border: solid 3px #4abdac;
   border-radius: 100%;
 }
+
+.blog .full-post {
+  width: 82%;
+}
+
+.edit {
+  text-decoration: line-through;
+}
