@@ -16,6 +16,7 @@ header, footer {
 footer {
   clear:both;
   text-align: center;
+  margin-top: 1%;
 }
 
 footer ul li {
@@ -135,7 +136,6 @@ section {
   float: left;
 }
 
-
 .portfolio article {
   width: 100%;
   border-bottom: double 8px  #4abdac;
@@ -175,4 +175,36 @@ section {
 .portfolio article p:nth-of-type(5), .portfolio article p:nth-of-type(1){
   width: 98%;
   padding-left: 2%;
+}
+
+/* Blog page specifics */
+
+.blog {
+  line-height: 1.2;
+}
+
+aside {
+  line-height: 1.75;
+  float: left;
+  width: 13%;
+  text-align: left;
+  padding-right: -1%;
+  margin-bottom: 2%;
+  font-size: .76em;
+}
+
+.blog article {
+  width: 41%;
+  display: inline-block;
+  padding: 1%;
+  float: right;
+  font-size: .9em;
+}
+
+.blog article:nth-last-of-type(3), .blog article:nth-last-of-type(1){
+  border-left: double 2px #4abdac;
+}
+
+h2 {
+    font-family: Candal;
 }
