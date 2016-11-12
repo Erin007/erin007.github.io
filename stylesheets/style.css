@@ -51,7 +51,7 @@ p a{
 }
 
 p a:hover{
-  color: #4abdac;
+  color: #bada55;
 }
 
 section {
@@ -93,7 +93,7 @@ section {
 
 /* Index page specifics */
 .index p:nth-child(1){
-  color: #4abdac;
+  color: #bada55;
   font-family: Roboto Mono, monospace;
   float: right;
   width: 17%;
