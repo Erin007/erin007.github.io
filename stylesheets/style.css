@@ -31,6 +31,7 @@ header nav ul li{
   padding-left: 2%;
   margin-left: 5%;
   font-size: 2em;
+  color: white;
 }
 
 li {
@@ -47,7 +48,7 @@ header a:hover, h2 a:hover{
 }
 
 p a{
-  text-shadow: 2px 2px 2px #9eb063
+  text-shadow: 2px 2px 2px #9eb063;
 }
 
 p a:hover{
