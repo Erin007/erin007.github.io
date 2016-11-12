@@ -31,7 +31,6 @@ header nav ul li{
   padding-left: 2%;
   margin-left: 5%;
   font-size: 2em;
-  color: white;
 }
 
 li {
@@ -43,7 +42,7 @@ a {
   color: black;
 }
 
-header a:hover, h2 a:hover{
+header a, h2 a{
   color: white;
 }
 
