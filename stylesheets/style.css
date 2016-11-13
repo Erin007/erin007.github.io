@@ -28,7 +28,6 @@ header{
   background-color: white;
   width: 100%;
   font-family: EB Garamond;
-  /*padding: 4%;*/
 }
 
 
@@ -50,10 +49,8 @@ footer {
   display: inline-block;
   float: right;
   font-size: 2em;
-  /*padding: 1%;*/
   background-color: #132e37;
   padding-left: 1%;
-  /*border-bottom: solid 5px #619497;*/
 }
 
 .top-nav ul li a{
@@ -112,48 +109,43 @@ section {
 }
 /* About page specifics */
 .about {
-  margin-bottom: 400px;
+  /*margin-bottom: 400px;*/
 }
 
-.about section {
-  width: 49%;
+.about section p{
+  width: 50%;
   float: left;
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: .95em;
 }
 
-#erin_photo {
+#erin_morty_photo {
   float: right;
-  width: 35%;
-  height: auto;
-  max-height: 10px;
+  display: inline-block;
+  width: 30%;
+  /*height: auto;*/
+  /*max-height: 10px;*/
   text-align: left;
-  margin-left: -1000px;
+  /*margin-left: -1000px;*/
 }
 
-#erin_photo img {
-  border: 6px solid black;
-  border-radius: 15px;
+#erin_morty_photo img {
+  border: solid 4px #9eb15f;
+  border-radius: 15%;
+  width: 100%;
+  margin-top: -77%;
 }
 
-/* Index page specifics */
-/*.index p:nth-child(1){
-  color: #9eb063;
-  font-family: Roboto Mono, monospace;
+.about .contact-links {
+  margin-top: -8%;
+  margin-right: 5%;
   float: right;
-  width: 17%;
-  font-size: 3em;
-  position: absolute;
-  top: 28%;
-  left: 70%;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0 auto;
-  animation: type 5s steps(60, end);
-  border-right: solid #b6e4dd;
-}*/
 
-@keyframes type{
-  from { width: 0; }
 }
+/* Index page specifics */
 
 .index {
   margin-top: 3%;
@@ -161,17 +153,6 @@ section {
   left: 0;
   top: 0;
 }
-
-/*.index img {
-  float: right;
-  margin-top: -5%;
-  margin-left: -4%;
-  padding-left: 5%;
-  z-index: -1;
-  position: relative;
-  top: 0;
-  left: 0;
-}*/
 
 .index img {
   float: left;
