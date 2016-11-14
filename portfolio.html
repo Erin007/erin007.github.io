@@ -2,122 +2,28 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Erin E. Bond Portfolio</title>
+    <title>Erin E. Bond About</title>
     <link href="stylesheets/reset.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Didact+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Didact+Gothic|Source+Sans+Pro:200" rel="stylesheet">
   </head>
 
   <body>
     <header>
       <h1><a href="index.html"> Erin E. Bond </a></h1>
-      <nav>
-        <ul>
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="portfolio.html"> Portfolio </a> </li>
-          <li><a href="about.html"> About </a> </li>
-          <li><a href="code-journal.html"> Blog </a> </li>
-        </ul>
-      </nav>
+      <img class ="ada_logo" src="images/ada_logo.png"/>
     </header>
 
-    <section class="portfolio">
-
-      <div>
-      <article>
-        <h3>Week 1: Calculator</h3>
-        <p>
-          We wrote <a href= "https://gist.github.com/Erin007/1624c6ad4159d641c672dc6d2add4067">calculator programs</a> that could add, multiply, subtract and divide two numbers. Okay, so it's no T1-89, but it sure felt like a jump from the "Hello World" program I had only recently mastered. This project was the first where I...
-        </p>
-
-        <img src="images/calculator.png"/>
-
-        <p><em>•</em> dealt with error handling for user input (albeit in a rudimentary way)</p>
-
-        <p><em>•</em>  refactored a long, long list of if statements into a more readable case statement</p>
-
-        <p><em>•</em> used an unless loop to let a user continue "playing"</p>
-
-        <p>
-           After meeting the <a href="https://github.com/AdaGold/standalone-exercises/blob/master/calculator.md"> baseline requirements</a>, I wrote a little <a href= "https://gist.github.com/Erin007/edd3e7f3cb2cd392eb6428f57a826776">code that found factors</a> of numbers, including negatives and identified prime numbers.
-        </p>
-
-      </article>
-
-      <article>
-        <h3>Week 2: Solar System</h3>
-        <p>
-          This week was a meteor shower of new information. We worked on a <a href= "https://github.com/Ada-C6/Solar-System">planetary project</a> wherein we created objects in a planet class that have a variety  of attributes. We completed the project in two waves...
-        </p>
-        <img src="images/planet.png"/>
-
-          <p>
-              <em>•</em><a href= "https://gist.github.com/Erin007/177ca08a0b31b971f19d630e82897f48"> Wave 1</a>: was the first time I used classes, and initialized new objects
-          </p>
-          <p>
-              <em>•</em><a href="https://gist.github.com/Erin007/789979ea5083fab86003dc953a5341ad"> Wave 2</a>: stepped it up a notch by asking us to use an array of planets to initialize a solar system object of a new class
-          </p>
-          <p>
-              <em>•</em> I also tackled some optional enhancements such as calculating the distance between two planets using their distance from the sun attributes. It was out of this world!
-          </p>
-          <p>
-            Through completing this project, I finally understand why everyone keeps harping on the idea that "everything is an object" in Ruby.
-          </p>
-      </article>
-
-      <article>
-        <h3>Week 3: Bank Accounts</h3>
-        <p>
-          Using a Bank module, we created various classes for different aspects of bank accounts. The <a href="https://github.com/Ada-C6/BankAccounts"> assignment </a>started out straightforaward enough, until objects of different classes had to associate with one another based on shared attributes. Whoa. Takeaways:
-        </p>
-        <img src="images/piggy_bank.png"/>
-
-          <p>
-              <em>•</em> Class inheritance saves you from repetition. It's super!
-          </p>
-          <p>
-              <em>•</em> I figured out how to raise Exceptions with useful messages. Don't even think about opening that Money Market account with less than $10,000.
-          </p>
-          <p>
-              <em>•</em> sprintf "%.2f" is a beautiful little snippet of code
-          </p>
-          <p>
-            You can take a peak at the<a href="https://github.com/Erin007/BankAccounts/blob/master/Erin_bank_account_w3.rb"> final code here</a>, and see my first ever class methods and read of info from a csv. Adios, gets.chomp. You can also see the comment relics of my first great "end" scavenger hunt. I'm totally ready to make secure accounts for a real bank, right?
-          </p>
-      </article>
-
-      <article>
-        <h3>Week 5: Farmers' Markets</h3>
-        <p>
-          The previous cohorts warned us it was coming - the elusive "Far Mar". OMG get ready for CSVs and TDD! Realistically,<a href="https://github.com/Ada-C6/FarMar"> the assignment</a> was managable. It was an opportunity to put together all of the individual Ruby concepts we'd studied. Here's my advice for future FarMar folks:
-        </p>
-        <img src="images/flower.png" id="flower"/>
-        <p>
-            <em>•</em> Make a diagram ahead of time for how to you expect your classes to interact with one another and make sure you're crystal clear about what type of object a method should return.
-        </p>
-        <p>
-            <em>•</em> Make some tea while you wait. Reading in from a CSV with thousands of lines is a time intensive process. If you don't optimize it, your tests take forever.
-        </p>
-        <p>
-            <em>•</em> Make your tests print out something every time a loop runs to let you know if your test is actually running. Emojis work best 🌽.
-        </p>
-
-        <p>
-          My whole <a href="https://github.com/Erin007/FarMar">FarMar project</a> could use some refactoring.  If the goal is DRY code, there was a rainstorm at my Farmer's Market. But, alas, it has the baseline functionality and a slew of optional requirements.
-        </p>
-      </article>
-      </div>
-    </section>
+    <nav class ="top-nav">
+      <ul>
+        <li><a href="index.html"> home </a></li>
+        <li><a href="assignments.html"> assignments </a> </li>
+        <li><a href="code-journal.html"> blog </a> </li>
+        <li><a href="about.html"> about </a> </li>
+      </ul>
+    </nav>
 
     <footer>
-      <nav>
-      <ul>
-        <li><a href="mailto:erin@erinebond.com"><img src="images/email.png"/></li></a>
-        <li><a href="https://www.linkedin.com/in/erin-e-bond-8a7ab132"><img src="images/linkedin.png"/></li></a>
-        <li><a href="https://github.com/Erin007"><img src="images/github.png"/></li></a>
-        <li><a href="https://twitter.com/eebs007_WA"><img src="images/twitter.png"/></li></a>
-      </ul>
-      </nav>
       <p>&copy; 2016 Erin E. Bond</p>
     </footer>
   </body>

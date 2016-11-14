@@ -83,13 +83,13 @@ a {
   font-weight: bold;
 }
 
-p a{
-  text-shadow: 2px 2px 2px #d6ed82;
+p a, .assignments li a {
+  text-shadow: 2px 2px 2px #9eb15f;
 }
 
-p a:hover{
+/*p a:hover{
   color: #9eb15f;
-}
+}*/
 
 section {
   font-family: Source Sans Pro, sans-serif;
@@ -177,7 +177,7 @@ section {
 }
 
 /* Porfolio page specifics */
-.portfolio div {
+/*.portfolio div {
   float: left;
 }
 
@@ -198,9 +198,7 @@ section {
   padding-left: 5%;
 }
 
-#flower{
-  padding-top: 5%;
-}
+
 
 .portfolio article:nth-child(2) img{
   padding-top: 5%;
@@ -224,8 +222,38 @@ section {
 .portfolio article p:nth-of-type(5), .portfolio article p:nth-of-type(1){
   width: 98%;
   padding-left: 2%;
+}*/
+
+/* Assignment page specifics */
+.assignments{
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.assignments article{
+  display: inline-block;
+  width: 90%;
+  font-size: .9em;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: solid 2px #9eb15f;
+  padding-bottom: 2%;
 }
 
+.assignments article ul li{
+  list-style-type: disc;
+  margin-left: 5%;
+}
+
+.assignments .hide {
+  font-size: .5em;
+}
+.assignments article h3{
+  font-size: 1.25em;
+  font-weight: bold;
+}
 /* Blog page specifics */
 
 .blog {
@@ -242,14 +270,13 @@ aside {
   margin-top: 2%;
   font-size: .75em;
   padding-right: 1%;
-  border-right: solid 1px #9eb15f
+  border-right: solid 1px #9eb15f;
 }
 
 .blog article {
   width: 35%;
   display: inline-block;
   padding: 1%;
-  /*float: right;*/
   font-size: .9em;
   margin: 1%;
 }
@@ -271,12 +298,12 @@ h2 {
 
 h2 a{
   color: black;
-  text-shadow: 2px 2px 2px #d6ed82;
+  text-shadow: 2px 2px 2px #9eb15f;
 }
 
-h2:hover{
+/*h2:hover{
   color: #9eb15f;
-}
+}*/
 
 .blog .hide {
   line-height: .75
@@ -295,13 +322,31 @@ h2:hover{
 
 
  .blog .full-post{
-  width: 82%;
+  width: 73%;
+  display: inline-block;
+  line-height: 1.75;
 }
 
 .full-post ol li::first-letter, span{
     font-family: EB Garamond;
+    font-size: 2em;
 }
 
+h4 {
+  font-family: Dancing Script;
+  font-size: 1.5em;
+  text-align: center;
+  color: #132e37;
+}
+
+h5 {
+  text-align: right;
+  font-family: Didact Gothic;
+  font-size: .75em;
+  font-weight: bold;
+  margin-right: 10%;
+  color: #132e37;
+}
 .edit {
   text-decoration: line-through;
 }
