@@ -66,7 +66,7 @@ footer {
 }
 
 .top-nav ul{
-  padding-right: 8%;
+  padding-right: 12%;
   margin-bottom: 1%;
   font-size: .8em;
   font-family: Didact Gothic;
@@ -81,10 +81,6 @@ a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-}
-
- h2 a{
-  color: #f2f3f5;
 }
 
 p a{
@@ -234,39 +230,52 @@ section {
 
 .blog {
   line-height: 1.3;
+  width: 90%;
 }
 
 aside {
   line-height: 1.75;
   float: left;
-  width: 13%;
+  width: 15%;
   text-align: left;
-  padding-right: -1%;
-  margin-bottom: 2%;
-  font-size: .76em;
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: .75em;
+  padding-right: 1%;
+  border-right: solid 1px #9eb15f
 }
 
 .blog article {
-  width: 41%;
+  width: 35%;
   display: inline-block;
   padding: 1%;
-  float: right;
+  /*float: right;*/
   font-size: .9em;
+  margin: 1%;
 }
+
 
 .blog article p:first-of-type{
   font-size: .76em;
 }
 
-.blog article:nth-last-of-type(3), .blog article:nth-last-of-type(1){
+/*.blog article:nth-last-of-type(3), .blog article:nth-last-of-type(1){
   border-left: double 2px black;
-}
+}*/
 
 h2 {
-    font-family: EB Garamond;
-    background: #4abdac;
-    padding: 2%;
-    border-radius: 2%;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2 a{
+  color: black;
+  text-shadow: 2px 2px 2px #d6ed82;
+}
+
+h2:hover{
+  color: #9eb15f;
 }
 
 .blog .hide {
@@ -274,7 +283,7 @@ h2 {
 }
 
 .blog img {
-  border: solid 3px #4abdac;
+  border: solid 5px #132e37;
   border-radius: 100%;
 }
 
