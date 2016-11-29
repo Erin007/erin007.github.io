@@ -161,19 +161,18 @@ section {
   margin-right: 5%;
 }
 
-.contact-links ul{
-  text-align: right;
-  margin-right: 16%;
-  margin-top: 2%;
+.contact-links ul {
+  width: 75%;
+  margin-left: 40%;
+  padding-top: 1%;
 }
 .contact-links li {
-  width: 15%;
+  width:60px;
+  margin-right: 1%;
   display: inline-block;
-  margin-right: -8%;
 }
 .contact-links img{
-
-  width: 40%;
+  width: 100%;
 }
 
 /* Porfolio page specifics */
@@ -280,7 +279,6 @@ aside {
   font-size: .9em;
   margin: 1%;
 }
-
 
 .blog article p:first-of-type{
   font-size: .76em;
