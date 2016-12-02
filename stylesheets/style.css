@@ -30,7 +30,6 @@ header{
   font-family: EB Garamond;
 }
 
-
 footer {
   background-color: #132e37;
   width: 100%;
@@ -43,7 +42,6 @@ footer {
   border-top: solid 5px #9eb15f;
   border-bottom: solid 5px #9eb15f;
 }
-
 
 .top-nav ul li{
   display: inline-block;
@@ -72,7 +70,6 @@ footer {
   font-family: Didact Gothic;
 }
 
-
 li {
   list-style-type: none;
 }
@@ -87,10 +84,6 @@ p a, .assignments li a {
   text-shadow: 2px 2px 2px #9eb15f;
 }
 
-/*p a:hover{
-  color: #9eb15f;
-}*/
-
 section {
   font-family: Source Sans Pro, sans-serif;
   font-size: 2.25em;
@@ -103,10 +96,9 @@ section {
 .hide {
   color: #f2f3f5;
 }
+
+
 /* About page specifics */
-.about {
-  /*margin-bottom: 400px;*/
-}
 
 .about section p{
   width: 50%;
@@ -122,10 +114,7 @@ section {
   float: right;
   display: inline-block;
   width: 30%;
-  /*height: auto;*/
-  /*max-height: 10px;*/
   text-align: left;
-  /*margin-left: -1000px;*/
 }
 
 #erin_morty_photo img {
@@ -136,11 +125,13 @@ section {
 }
 
 .about .contact-links {
-  margin-top: -8%;
-  margin-right: 5%;
+  margin-top: -7%;
+  margin-right: 2%;
   float: right;
-
+  width: 100%;
 }
+
+
 /* Index page specifics */
 
 .index {
@@ -175,7 +166,9 @@ section {
   width: 100%;
 }
 
+
 /* Porfolio page specifics */
+
 .petsy{
   width: 40%;
   padding: 3%;
@@ -209,55 +202,8 @@ section {
 }
 
 
-
-/*.portfolio div {
-  float: left;
-}
-
-.portfolio article {
-  width: 100%;
-  border-bottom: double 8px  #4abdac;
-  margin: auto;
-  display: inline-block;
-  text-align: left;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.portfolio img {
-  width: 15%;
-  float: left;
-  padding-top: 1%;
-  padding-left: 5%;
-}
-
-
-
-.portfolio article:nth-child(2) img{
-  padding-top: 5%;
-  width: 20%;
-  padding-left: 2%;
-}
-
-.portfolio h3 {
-  font-family: EB Garamond;
-  width: 100%;
-  float: left;
-}
-
-.portfolio p{
-  float: right;
-  padding-top: 2%;
-}
-.portfolio p:nth-of-type(2), .portfolio p:nth-of-type(3), .portfolio p:nth-of-type(4){
-  width: 75%;
-}
-.portfolio article p:nth-of-type(5), .portfolio article p:nth-of-type(1){
-  width: 98%;
-  padding-left: 2%;
-}*/
-
 /* Assignment page specifics */
+
 .assignments{
   margin-left: 8%;
   margin-right: 5%;
@@ -269,7 +215,7 @@ section {
   width: 90%;
   font-size: .9em;
   margin-right: 2%;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 2%;
   border-bottom: solid 2px #9eb15f;
   padding-bottom: 2%;
@@ -287,6 +233,21 @@ section {
   font-size: 1.25em;
   font-weight: bold;
 }
+
+.assignment-jump-to h3{
+  display: inline-block;
+  padding: 1%;
+  text-shadow: 2px 2px 2px #9eb15f;
+}
+
+.assignment-jump-to{
+  margin-left: -1%;
+}
+
+/*#solar-system, #bank, #farmer, #etsy, #JS{
+  display:none;
+}*/
+
 /* Blog page specifics */
 
 .blog {
@@ -318,10 +279,6 @@ aside {
   font-size: .76em;
 }
 
-/*.blog article:nth-last-of-type(3), .blog article:nth-last-of-type(1){
-  border-left: double 2px black;
-}*/
-
 h2 {
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
@@ -332,10 +289,6 @@ h2 a{
   color: black;
   text-shadow: 2px 2px 2px #9eb15f;
 }
-
-/*h2:hover{
-  color: #9eb15f;
-}*/
 
 .blog .hide {
   line-height: .75
@@ -351,7 +304,6 @@ h2 a{
   float: left;
   margin-right: 1%;
 }
-
 
  .blog .full-post{
   width: 73%;
@@ -379,6 +331,7 @@ h5 {
   margin-right: 10%;
   color: #132e37;
 }
+
 .edit {
   text-decoration: line-through;
 }
