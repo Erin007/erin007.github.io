@@ -146,8 +146,12 @@ section {
   color: #f2f3f5;
 }
 
+#keyboard-title{
+  font-size: 3em;
+  font-family: Source Sans Pro;
+}
+
 .music {
-  /*background-color: black;*/
   padding: 3%;
 }
 
