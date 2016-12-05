@@ -3,20 +3,22 @@
 $(document).ready(function (){
 
 //Assignments page
-  $('#calc').show();
+  $('#calc').hide();
   $('#solar-system').hide();
   $('#bank').hide();
   $('#farmer').hide();
   $('#scrabble').hide();
   $('#task').hide();
   $('#etsy').hide();
-  $('#JS').hide();
+  $('#JS').show();
 
   $("#solar-system-link").click(function(){
     $('#calc').hide();
     $('#solar-system').show();
     $('#bank').hide();
     $('#farmer').hide();
+    $('#scrabble').hide();
+    $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
   });
@@ -26,6 +28,8 @@ $(document).ready(function (){
     $('#solar-system').hide();
     $('#bank').hide();
     $('#farmer').hide();
+    $('#scrabble').hide();
+    $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
   });
@@ -35,6 +39,8 @@ $(document).ready(function (){
     $('#solar-system').hide();
     $('#bank').show();
     $('#farmer').hide();
+    $('#scrabble').hide();
+    $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
   });
@@ -44,6 +50,8 @@ $(document).ready(function (){
     $('#solar-system').hide();
     $('#bank').hide();
     $('#farmer').show();
+    $('#scrabble').hide();
+    $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
   });
@@ -53,6 +61,8 @@ $(document).ready(function (){
     $('#solar-system').hide();
     $('#bank').hide();
     $('#farmer').hide();
+    $('#scrabble').hide();
+    $('#task').hide();
     $('#etsy').show();
     $('#JS').hide();
   });
@@ -62,6 +72,8 @@ $(document).ready(function (){
     $('#solar-system').hide();
     $('#bank').hide();
     $('#farmer').hide();
+    $('#scrabble').hide();
+    $('#task').hide();
     $('#etsy').hide();
     $('#JS').show();
   });
@@ -69,10 +81,15 @@ $(document).ready(function (){
   $('.overlay').hide();
 
   $('.petsy img').mouseover(function () {
-      $('.overlay').show();
+      $('.petsy .overlay').show();
   }).mouseout(function () {
-      $('.overlay').hide();
+      $('.petsy .overlay').hide();
   });
 
+  $('.tasklist img').mouseover(function () {
+      $('.tasklist .overlay').show();
+  }).mouseout(function () {
+      $('.tasklist .overlay').hide();
+  });
 
 });
