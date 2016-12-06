@@ -167,7 +167,7 @@ section {
 }
 
 
-/* Porfolio page specifics */
+/* Portfolio page specifics */
 
 .petsy{
   width: 40%;
@@ -176,18 +176,18 @@ section {
   float:left;
 }
 
-
-.tasklist img{
-  width: 100%;
+.farmar-rails img{
+  width: 90%;
   float: right;
   padding: 3%;
   margin-top: 10%;
   border-radius: 15%;
 }
 
-.tasklist{
+.farmar-rails{
   position: relative;
-  width: 45%;
+  width: 40%;
+  height: 95%;
 }
 
 #portfolio-box div{
@@ -201,16 +201,12 @@ section {
   margin-left: 10%;
 }
 
-.tasklist img:hover{
+.farmar-rails img:hover{
   opacity: .75;
 }
 
-.petsy .overlay{
-    margin-left: -40%;
-}
-
 .overlay {
-    width: 90%;
+    width: 100%;
     height: 90%;
     background-color: #132e37;
     z-index: 1;
@@ -219,6 +215,11 @@ section {
     top: 2.5em;
     display: none;
     border-radius: 15%;
+}
+
+.petsy .overlay{
+    margin-left: -40%;
+    width: 90%
 }
 
 .overlay p{
@@ -240,6 +241,7 @@ section {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
 .assignments article{
   display: inline-block;
   width: 90%;
@@ -259,6 +261,7 @@ section {
 .assignments .hide {
   font-size: .5em;
 }
+
 .assignments article h3{
   font-size: 1.25em;
   font-weight: bold;
@@ -274,6 +277,17 @@ section {
   margin-left: -1%;
 }
 
+.tasklist-pic{
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+#tasklist .summary{
+  width: 45%;
+  display: inline-block;
+  float: left;
+}
 /*#solar-system, #bank, #farmer, #etsy, #JS{
   display:none;
 }*/

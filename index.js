@@ -11,6 +11,7 @@ $(document).ready(function (){
   $('#task').hide();
   $('#etsy').hide();
   $('#JS').show();
+  $('#tasklist').hide();
 
   $("#solar-system-link").click(function(){
     $('#calc').hide();
@@ -21,6 +22,7 @@ $(document).ready(function (){
     $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
+    $('#tasklist').hide();
   });
 
   $("#calc-link").click(function(){
@@ -32,6 +34,7 @@ $(document).ready(function (){
     $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
+    $('#tasklist').hide();
   });
 
   $("#bank-link").click(function(){
@@ -43,6 +46,7 @@ $(document).ready(function (){
     $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
+    $('#tasklist').hide();
   });
 
   $("#farmer-link").click(function(){
@@ -54,6 +58,7 @@ $(document).ready(function (){
     $('#task').hide();
     $('#etsy').hide();
     $('#JS').hide();
+    $('#tasklist').hide();
   });
 
   $("#etsy-link").click(function(){
@@ -65,6 +70,7 @@ $(document).ready(function (){
     $('#task').hide();
     $('#etsy').show();
     $('#JS').hide();
+    $('#tasklist').hide();
   });
 
   $("#JS-link").click(function(){
@@ -76,6 +82,31 @@ $(document).ready(function (){
     $('#task').hide();
     $('#etsy').hide();
     $('#JS').show();
+    $('#tasklist').hide();
+  });
+
+  $("#task-link").click(function(){
+    $('#calc').hide();
+    $('#solar-system').hide();
+    $('#bank').hide();
+    $('#farmer').hide();
+    $('#scrabble').hide();
+    $('#task').hide();
+    $('#etsy').hide();
+    $('#JS').hide();
+    $('#tasklist').show();
+  });
+
+  $("#scrabble-link").click(function(){
+    $('#calc').hide();
+    $('#solar-system').hide();
+    $('#bank').hide();
+    $('#farmer').hide();
+    $('#scrabble').show();
+    $('#task').hide();
+    $('#etsy').hide();
+    $('#JS').hide();
+    $('#tasklist').hide();
   });
 //Portfolio page
   $('.overlay').hide();
@@ -86,10 +117,10 @@ $(document).ready(function (){
       $('.petsy .overlay').hide();
   });
 
-  $('.tasklist img').mouseover(function () {
-      $('.tasklist .overlay').show();
+  $('.farmar-rails img').mouseover(function () {
+      $('.farmar-rails .overlay').show();
   }).mouseout(function () {
-      $('.tasklist .overlay').hide();
+      $('.farmar-rails .overlay').hide();
   });
 
 });
