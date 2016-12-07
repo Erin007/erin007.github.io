@@ -201,9 +201,9 @@ section {
   margin-left: 10%;
 }
 
-.farmar-rails img:hover{
+/*.farmar-rails img:hover{
   opacity: .75;
-}
+}*/
 
 .overlay {
     width: 100%;
@@ -215,6 +215,11 @@ section {
     top: 2.5em;
     display: none;
     border-radius: 15%;
+    opacity: 0;
+}
+
+.overlay:hover{
+  opacity: .9;
 }
 
 .petsy .overlay{
@@ -374,6 +379,12 @@ h5 {
   font-weight: bold;
   margin-right: 10%;
   color: #132e37;
+}
+
+.list-title{
+  text-align: left;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 1.25em;
 }
 
 .edit {

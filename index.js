@@ -109,18 +109,6 @@ $(document).ready(function (){
     $('#tasklist').hide();
   });
 //Portfolio page
-  $('.overlay').hide();
 
-  $('.petsy img').mouseover(function () {
-      $('.petsy .overlay').show();
-  }).mouseout(function () {
-      $('.petsy .overlay').hide();
-  });
-
-  $('.farmar-rails img').mouseover(function () {
-      $('.farmar-rails .overlay').show();
-  }).mouseout(function () {
-      $('.farmar-rails .overlay').hide();
-  });
 
 });
