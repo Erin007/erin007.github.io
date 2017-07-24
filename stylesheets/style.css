@@ -1,73 +1,21 @@
-h1 {
-  font-size: 7em;
-  float: left;
-  margin-left: 3%;
-  display: inline-block;
-  width: 50%;
-  padding-top: 1%;
-}
-
-header a {
-    color:  #132e37;
-    display: inline-block;
-    margin-left: -30%;
-    margin-bottom: 0%;
-    margin-top: 1%;
-}
-
-header img {
-    display: inline-block;
-    width: 8%;
-    margin: 1%;
-    margin-left: 15%;
-    margin-bottom: 0%;
-}
-
 header {
-  border-bottom: solid 4px #9eb15f;
-  background-color: white;
   width: 100%;
-  font-family: EB Garamond;
+  font-family: 'Nunito', sans-serif;
+  font-size: 5em;
+  color:  black;
+  margin-top: 25px;
+  margin-left: 10%;
+  display: inline-block;
+  float: left;
+}
+
+header h1 {
+  float: left;
 }
 
 footer {
-  background-color: #132e37;
-  width: 100%;
-  font-family: Didact Gothic;
-  color: #f2f3f5;
-  padding: 1.5%;
+  font-family: 'Nunito', sans-serif;
   font-size: 1em;
-  text-align: center;
-  clear:both;
-  border-top: solid 5px #9eb15f;
-  border-bottom: solid 5px #9eb15f;
-}
-
-.top-nav ul li {
-  display: inline-block;
-  float: right;
-  font-size: 2em;
-  background-color: #132e37;
-  padding-left: 1%;
-}
-
-.top-nav ul li a {
-  color: #f2f3f5;
-  font-weight: bold;
-}
-
-.top-nav {
-  width: 100%;
-  background-color: #132e37;
-  padding: 1.25%;
-  border-bottom: solid 4px #9eb15f;
-}
-
-.top-nav ul {
-  padding-right: 12%;
-  margin-bottom: 1%;
-  font-size: .8em;
-  font-family: Didact Gothic;
 }
 
 li {
@@ -78,10 +26,7 @@ a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-}
-
-p a, .assignments li a {
-  text-shadow: 1px 1px 1px #9eb15f;
+  font-family: 'Nunito', sans-serif;
 }
 
 section {
@@ -91,306 +36,25 @@ section {
   font-weight: bold;
   line-height: 1.5;
   margin-right: 10%;
+  margin-left: 10%;
 }
 
 .hide {
   color: #f2f3f5;
 }
 
-
-/* About page specifics */
-
-.about section p {
-  width: 50%;
-  float: left;
-  display: inline-block;
-  margin-left: 8%;
-  margin-top: 3%;
-  margin-bottom: 1%;
-  font-size: .95em;
-}
-
-#erin_morty_photo {
-  float: right;
-  display: inline-block;
-  width: 30%;
-  text-align: left;
-  margin-top: 90px;
-}
-
-#erin_morty_photo img {
-  border: solid 4px #9eb15f;
-  border-radius: 15%;
-  width: 100%;
-  margin-top: -77%;
-}
-
-.about .contact-links {
-  /*margin-top: -7%;*/
-  margin-right: 2%;
-  float: right;
-  width: 100%;
-}
-
-
-/* Index page specifics */
-
-.index {
-  margin-top: 3%;
-  position: relative;
-  left: 0;
-  top: 0;
-}
-
-.index img {
-  float: left;
-  display: inline;
-  border:  solid 5px #132e37;
-  border-radius: 100%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  margin-left: 6%;
-  margin-right: 5%;
-}
-
 .contact-links ul {
-  width: 75%;
-  margin-left: 40%;
-  padding-top: 1%;
+  float: right;
+  padding-right: 20%;
 }
 
 .contact-links li {
-  width:60px;
-  margin-right: 1%;
-  margin-bottom: 4%;
+  width: 40px;
   display: inline-block;
+  float: left;
+  margin-right: 3px;
 }
 
 .contact-links img {
   width: 100%;
-}
-
-
-/* Portfolio page specifics */
-
-.petsy{
-  width: 40%;
-  padding: 3%;
-  position: relative;
-  float:left;
-}
-
-.farmar-rails img{
-  width: 90%;
-  float: right;
-  padding: 3%;
-  margin-top: 10%;
-  border-radius: 15%;
-}
-
-.farmar-rails{
-  position: relative;
-  width: 40%;
-  height: 95%;
-}
-
-#portfolio-box div{
-  display: inline-block;
-}
-
-.petsy img{
-  width: 90%;
-  height: 90%;
-  padding: 2%;
-  margin-left: 10%;
-}
-
-/*.farmar-rails img:hover{
-  opacity: .75;
-}*/
-
-.overlay {
-    width: 100%;
-    height: 90%;
-    background-color: #132e37;
-    z-index: 1;
-    opacity: 0.9;
-    position: absolute;
-    top: 2.5em;
-    display: none;
-    border-radius: 15%;
-    opacity: 0;
-}
-
-.overlay:hover{
-  opacity: .9;
-}
-
-.petsy .overlay{
-    margin-left: -40%;
-    width: 90%
-}
-
-.overlay p{
-    font-size: 2.5em;
-    color: white;
-    padding: 10%;
-    font-family: Source Sans Pro;
-    text-align: left;
-    margin-top: 10%;
-    line-height: 1.5;
-}
-
-
-/* Assignment page specifics */
-
-.assignments{
-  margin-left: 8%;
-  margin-right: 5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.assignments article{
-  display: inline-block;
-  width: 90%;
-  font-size: .9em;
-  margin-right: 2%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  border-bottom: solid 2px #9eb15f;
-  padding-bottom: 2%;
-}
-
-.assignments article ul li{
-  list-style-type: disc;
-  margin-left: 5%;
-}
-
-.assignments .hide {
-  font-size: .5em;
-}
-
-.assignments article h3{
-  font-size: 1.25em;
-  font-weight: bold;
-}
-
-.assignment-jump-to h3{
-  display: inline-block;
-  padding: 1%;
-  text-shadow: 2px 2px 2px #9eb15f;
-}
-
-.assignment-jump-to{
-  margin-left: -1%;
-}
-
-.tasklist-pic{
-  width: 50%;
-  display: inline-block;
-  float: right;
-}
-
-#tasklist .summary{
-  width: 45%;
-  display: inline-block;
-  float: left;
-}
-/*#solar-system, #bank, #farmer, #etsy, #JS{
-  display:none;
-}*/
-
-/* Blog page specifics */
-
-.blog {
-  line-height: 1.3;
-  width: 90%;
-}
-
-aside {
-  line-height: 1.75;
-  float: left;
-  width: 15%;
-  text-align: left;
-  margin-left: 5%;
-  margin-top: 2%;
-  font-size: .75em;
-  padding-right: 1%;
-  border-right: solid 1px #9eb15f;
-}
-
-.blog article {
-  width: 35%;
-  display: inline-block;
-  padding: 1%;
-  font-size: .9em;
-  margin: 1%;
-}
-
-.blog article p:first-of-type{
-  font-size: .76em;
-}
-
-h2 {
-    font-family: Source Sans Pro, sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-h2 a{
-  color: black;
-  text-shadow: 2px 2px 2px #9eb15f;
-}
-
-.blog .hide {
-  line-height: .75
-}
-
-.blog img {
-  border: solid 5px #132e37;
-  border-radius: 100%;
-}
-
-.full-post img{
-  border-radius: 2%;
-  float: left;
-  margin-right: 1%;
-}
-
- .blog .full-post{
-  width: 73%;
-  display: inline-block;
-  line-height: 1.75;
-}
-
-.full-post ol li::first-letter, span{
-    font-family: EB Garamond;
-    font-size: 2em;
-}
-
-h4 {
-  font-family: Dancing Script;
-  font-size: 1.5em;
-  text-align: center;
-  color: #132e37;
-}
-
-h5 {
-  text-align: right;
-  font-family: Didact Gothic;
-  font-size: .75em;
-  font-weight: bold;
-  margin-right: 10%;
-  color: #132e37;
-}
-
-.list-title{
-  text-align: left;
-  font-family: Source Sans Pro, sans-serif;
-  font-size: 1.25em;
-}
-
-.edit {
-  text-decoration: line-through;
 }
