@@ -16,6 +16,7 @@ header h1 {
 footer {
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
+  margin-top: 50px;
 }
 
 li {
