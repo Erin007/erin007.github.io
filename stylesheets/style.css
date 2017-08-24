@@ -3,10 +3,26 @@ header {
   font-family: 'Nunito', sans-serif;
   font-size: 5em;
   color:  black;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-left: 10%;
-  display: inline-block;
-  float: left;
+  /*display: inline-block;*/
+  /*float: left;*/
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.image-wrapper{
+  position: relative;
+}
+
+
+#top_blob {
+  width: 100%;
+}
+
+#table_chair {
+  width: 40%;
 }
 
 header h1 {
