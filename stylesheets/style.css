@@ -1,58 +1,33 @@
 header {
-  width: 100%;
-  font-family: 'Homemade Apple';
+  font-family: 'Nunito', sans-serif;
   font-size: 5em;
   color:  black;
-  margin-top: 70px;
-  padding-bottom: 10px;
-  margin-left: 10%;
-}
-
-#last-paragraph {
-  float: left;
-  padding-bottom: 50px;
-}
-
-.index {
-  margin-top: -50px;
-}
-
-#top_image {
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-
-#bottom_image {
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  bottom: -50px;
-  z-index: -1;
-}
-
-#table_chair {
-  width: 350px;
-  float: left;
-  margin-left: 20px;
-  /*padding-bottom: 30px;*/
-}
-
-#sub-paragraphs {
-  width: 60%;
-  float: left;
+  margin-top: 25px;
+  margin-left: 8%;
+  text-align: left;
 }
 
 header h1 {
+  width: 100%;
   float: left;
+  padding-bottom: 20px;
+}
+
+#container {
+  position: relative;
+}
+
+#text {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 footer {
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
-  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 li {
@@ -66,49 +41,57 @@ a {
   font-family: 'Nunito', sans-serif;
 }
 
-p {
-  padding-bottom: 25px;
-}
-
-section {
+.paragraph {
   font-family: Source Sans Pro, sans-serif;
-  font-size: 2em;
+  font-size: 2.25em;
   text-align: left;
   font-weight: bold;
   line-height: 1.5;
   margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 125px;
+  margin-left: 8%;
+  margin-top: 30px;
+  width: 50%;
+}
+
+#paragraph2 {
+  margin-top: 90px;
+}
+
+#top-image {
+  width: 100%;
+  opacity: 0.4;
+}
+
+.contact-links {
+  padding-top: 20px;
 }
 
 .contact-links ul {
-  float: right;
   padding-right: 20%;
 }
 
 .contact-links li {
   width: 40px;
   display: inline-block;
-  float: left;
-  margin-right: 3px;
+  margin-right: 1px;
 }
 
 .contact-links img {
   width: 100%;
 }
 
-.full-width {
-  width: 100%;
-}
-
-.clear {
-  clear: both;
-}
-
-h1 a {
-  font-family: 'Homemade Apple', cursive;
-}
-
-footer p {
-  margin-top: 50px;
+@media only screen and (max-width: 970px) {
+    #container {
+      position: static;
+    }
+    #text {
+      position: static;
+    }
+    .paragraph {
+      width: 80%;
+      margin: 8%;
+    }
+    #paragraph2 {
+      margin-top: 10px;
+    }
 }
