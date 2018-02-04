@@ -8,6 +8,12 @@
     <title>Erin E. Bond</title>
     <link href="stylesheets/reset.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Source+Sans+Pro:200|Didact+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -16,52 +22,51 @@
   </head>
 
   <body>
-    <div id="container">
-      <img id="top-image" src="images/erin-face.png"/>
-      <div id="text" class="top-text">
-        <header>
-          <h1 id="name"> Erin E. Bond </h1>
-          <nav class ="contact-links">
-            <ul>
-              <li><a href="mailto:erin@erinebond.com"><img src="images/black_email.png"/></li></a>
-              <li><a href="https://www.linkedin.com/in/erin-e-bond-8a7ab132"><img src="images/black_linkedin.png"/></li></a>
-              <li><a href="https://github.com/Erin007"><img src="images/github_black.png"/></li></a>
-              <li><a href="https://twitter.com/eebs007_WA"><img src="images/twitter_black.png"/></li></a>
-            </ul>
-          </nav>
-          <p id="tagline">
-            software engineer && educator
+    <header class="header" id="myHeader">
+      <h1 id="name"> Erin E. Bond </h1>
+      <nav class ="contact-links">
+        <ul>
+          <li><a href="mailto:erin@erinebond.com"><img src="images/black_email.png"/></li></a>
+          <li><a href="https://www.linkedin.com/in/erin-e-bond-8a7ab132"><img src="images/black_linkedin.png"/></li></a>
+          <li><a href="https://github.com/Erin007"><img src="images/github_black.png"/></li></a>
+          <li><a href="https://twitter.com/eebs007_WA"><img src="images/twitter_black.png"/></li></a>
+        </ul>
+      </nav>
+      <p id="tagline">
+        software engineer && educator
+      </p>
+    </header>
+
+    <div class="content">
+      <div id="container">
+        <img id="top-image" src="images/erin-face.png"/>
+
+        <div id="text" class="top-text">
+          <p class="paragraph" id="first-paragraph">
+            Hello! I'm a full-stack software engineer at <a target="_blank" href="https://code.org">Code.org</a> and graduate of <a
+            target="_blank"
+            href="http://adadevelopersacademy.org/"> Ada Developers Academy</a> in Seattle, WA. I have experience with Ruby, Rails, HTML & CSS, Javascript, React and React Native. As a former teacher, I'm passionate about education and technology projects with a social mission.
           </p>
-        </header>
-        <p class="paragraph" id="first-paragraph">
-          Hello! I'm a full-stack software engineer at <a target="_blank" href="https://code.org">Code.org</a> and graduate of <a
-          target="_blank"
-          href="http://adadevelopersacademy.org/"> Ada Developers Academy</a> in Seattle, WA. I have experience with Ruby, Rails, HTML & CSS, Javascript, React and React Native. As a former teacher, I'm passionate about education and technology projects with a social mission.
-        </p>
+      </div>
+
+      <div id="container">
+        <img id="middle-image" src="images/computer-girl.png"/>
+        <div id="text">
+          <p class="paragraph" id="middle-paragraph">
+            With a background in neuroscience and education, I was previously an informal science educator, elementary school teacher and private Learning Specialist. Particular interests include causes that support girls in STEM, diversity and inclusion, literacy, and students with learning differences. Currently, that background translates into supporting k-12 computer science education, tutoring novice programmers, and mentoring early-career women in technology.
+            <br/>
+            <br/>
+            Considering a collaboration? <a
+            href="mailto:erin.e.bond@gmail.com">Reach out</a>!
+          </p>
+      </div>
+
+      <div id="container">
+        <img id="bottom-image" src="images/morty.png"/>
+        <div id="text">
+          <p class="paragraph" id="last-paragraph">
+            When I'm not coding, you can find me perusing local bookstores, writing picture books, exploring beaches with my marine biologist husband, learning how to ski (okay, mostly drinking hot chocolate) or backpacking with our dog, <a   target="_blank" href="https://www.instagram.com/explore/tags/mortyhunan/?hl=en">Morty</a>.
+          </p>
+      </div>
     </div>
-
-    <div id="container">
-      <img id="middle-image" src="images/computer-girl.png"/>
-      <div id="text">
-        <p class="paragraph" id="middle-paragraph">
-          With a background in neuroscience and education, I was previously an informal science educator, elementary school teacher and private Learning Specialist. Particular interests include causes that support girls in STEM, diversity and inclusion, literacy, and students with learning differences. Currently, that background translates into supporting k-12 computer science education, tutoring novice programmers, and mentoring early-career women in technology.
-          <br/>
-          <br/>
-          Considering a collaboration? <a
-          href="mailto:erin.e.bond@gmail.com">Reach out</a>!
-        </p>
-    </div>
-
-    <div id="container">
-      <img id="bottom-image" src="images/morty.png"/>
-      <div id="text">
-        <p class="paragraph" id="last-paragraph">
-          When I'm not coding, you can find me perusing local bookstores, writing picture books, exploring beaches with my marine biologist husband, learning how to ski (okay, mostly drinking hot chocolate) or backpacking with our dog, <a   target="_blank" href="https://www.instagram.com/explore/tags/mortyhunan/?hl=en">Morty</a>.
-        </p>
-    </div>
-
-    <footer>
-      <p>&copy; 2016 Erin E. Bond</p>
-    </footer>
-
   </body>

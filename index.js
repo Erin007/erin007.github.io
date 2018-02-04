@@ -1,114 +1,17 @@
 //index.js
 
 $(document).ready(function (){
+  window.onscroll = function() {scroll()};
 
-//Assignments page
-  $('#calc').hide();
-  $('#solar-system').hide();
-  $('#bank').hide();
-  $('#farmer').hide();
-  $('#scrabble').hide();
-  $('#task').hide();
-  $('#etsy').hide();
-  $('#JS').show();
-  $('#tasklist').hide();
+  var header = document.getElementById("myHeader");
 
-  $("#solar-system-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').show();
-    $('#bank').hide();
-    $('#farmer').hide();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').hide();
-    $('#tasklist').hide();
-  });
+  var sticky = header.offsetTop;
 
-  $("#calc-link").click(function(){
-    $('#calc').show();
-    $('#solar-system').hide();
-    $('#bank').hide();
-    $('#farmer').hide();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').hide();
-    $('#tasklist').hide();
-  });
-
-  $("#bank-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').hide();
-    $('#bank').show();
-    $('#farmer').hide();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').hide();
-    $('#tasklist').hide();
-  });
-
-  $("#farmer-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').hide();
-    $('#bank').hide();
-    $('#farmer').show();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').hide();
-    $('#tasklist').hide();
-  });
-
-  $("#etsy-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').hide();
-    $('#bank').hide();
-    $('#farmer').hide();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').show();
-    $('#JS').hide();
-    $('#tasklist').hide();
-  });
-
-  $("#JS-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').hide();
-    $('#bank').hide();
-    $('#farmer').hide();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').show();
-    $('#tasklist').hide();
-  });
-
-  $("#task-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').hide();
-    $('#bank').hide();
-    $('#farmer').hide();
-    $('#scrabble').hide();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').hide();
-    $('#tasklist').show();
-  });
-
-  $("#scrabble-link").click(function(){
-    $('#calc').hide();
-    $('#solar-system').hide();
-    $('#bank').hide();
-    $('#farmer').hide();
-    $('#scrabble').show();
-    $('#task').hide();
-    $('#etsy').hide();
-    $('#JS').hide();
-    $('#tasklist').hide();
-  });
-//Portfolio page
-
-
+  function scroll() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
 });

@@ -1,9 +1,15 @@
-header {
+.header {
   color:  black;
   text-align: left;
   width: 100%;
-  background: rgba(255, 255, 255, .8);
+  background: #fff;
   border-bottom: 2px solid #254e55;
+  z-index: 100;
+  background: rgba(255, 255, 255, .9)
+}
+
+body {
+  background: #254e55;
 }
 
 header h1 {
@@ -12,7 +18,7 @@ header h1 {
   float: left;
   padding-bottom: 5px;
   font-family: 'Amatic SC', cursive;
-  font-weight: 800;
+  font-weight: 900;
   color: black;
 }
 
@@ -34,14 +40,6 @@ header h1 {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-footer {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1em;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: rgba(255, 255, 255, .8);
 }
 
 li {
@@ -78,11 +76,13 @@ a:hover {
 #top-image {
   width: 100%;
   opacity: 0.98;
+  border-bottom: 20px solid #254e55;
 }
 
 #middle-image, #bottom-image {
   width: 100%;
   opacity: 0.8;
+  border-bottom: 20px solid #254e55;
 }
 
 #name {
@@ -91,6 +91,7 @@ a:hover {
   padding-left: 50px;
   padding-top: 10px;
 }
+
 .contact-links {
   /* padding-top: 20px; */
   display: inline-block;
@@ -124,6 +125,22 @@ a:hover {
 #last-paragraph {
   margin-left: 470px;
   margin-top: 70px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid #254e55;
+  background: rgba(255, 255, 255, .8)
+}
+
+.content {
+  padding-top: 8px;
+}
+
+.sticky + .content {
+  padding-top: 120px;
 }
 
 @media only screen and (max-width: 970px) {
