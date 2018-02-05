@@ -5,7 +5,7 @@
   background: #fff;
   border-bottom: 2px solid #254e55;
   z-index: 100;
-  background: rgba(255, 255, 255, .9)
+  background: rgba(255, 255, 255, .95)
 }
 
 body {
@@ -73,6 +73,15 @@ a:hover {
   border-radius: 5px;
 }
 
+footer {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 #top-image {
   width: 100%;
   opacity: 0.98;
@@ -87,20 +96,15 @@ a:hover {
 
 #name {
   display: inline-block;
-  width: 80%;
+  width: 75%;
   padding-left: 50px;
   padding-top: 10px;
 }
 
 .contact-links {
-  /* padding-top: 20px; */
   display: inline-block;
   height: 45px;
   padding-top: 30px;
-}
-
-.contact-links ul {
-  /* height: 50px; */
 }
 
 .contact-links li {
@@ -131,8 +135,6 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 2px solid #254e55;
-  background: rgba(255, 255, 255, .8)
 }
 
 .content {
@@ -144,17 +146,34 @@ a:hover {
 }
 
 @media only screen and (max-width: 970px) {
-    #container {
-      position: static;
-    }
-    #text {
-      position: static;
-    }
-    .paragraph {
-      width: 80%;
-      margin: 8%;
-    }
-    #paragraph2 {
-      margin-top: 10px;
-    }
+  #container {
+    position: static;
+  }
+  #text {
+    position: static;
+  }
+  #name {
+    width: 100%;
+    margin: 0;
+    margin-left: 50px;
+    padding: 0px;
+    padding-top: 10px;
+  }
+  #tagline {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+  }
+  .contact-links {
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  #first-paragraph, #middle-paragraph, #last-paragraph {
+    margin: 5%;
+    width: 80%;
+  }
 }
