@@ -176,5 +176,6 @@ footer {
   #first-paragraph, #middle-paragraph, #last-paragraph {
     margin: 5%;
     width: 80%;
+    font-size: 30px;
   }
 }

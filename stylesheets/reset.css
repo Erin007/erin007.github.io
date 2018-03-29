@@ -32,12 +32,12 @@ body {
 }
 
 /* container - place inside each section or around the entire page depending on your layout */
-.container {
+/* .container {
 	width: 960px;
 	margin: 0 auto;
 	text-align: left;
 	position: relative;
-}
+} */
 
 /* for clearing any floats <br class=&quot;clearfloat&quot; /> */
 .clearfloat {
@@ -46,4 +46,3 @@ body {
     font-size: 1px;
     line-height: 0px;
 }
-
