@@ -164,7 +164,7 @@ footer {
 
   header h1 {
     /* width: 80%; */
-    font-size: 10em;
+    font-size: 25em;
     float: left;
     padding-bottom: 5px;
     font-family: 'Amatic SC', cursive;
@@ -211,7 +211,7 @@ footer {
 
   header h1 {
     width: 80%;
-    font-size: 8em;
+    font-size: 25em;
     float: left;
     padding-bottom: 5px;
     font-family: 'Amatic SC', cursive;
