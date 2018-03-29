@@ -145,7 +145,7 @@ footer {
   padding-top: 120px;
 }
 
-@media only screen and (max-device-width: 1090px) {
+@media only screen and (max-width: 1090px) {
   #container {
     position: static;
   }
@@ -163,11 +163,11 @@ footer {
   }
 
   header h1 {
-    /* width: 80%; */
-    font-size: 20em;
+    width: 80%;
+    font-size: 6em;
     float: left;
     padding-bottom: 5px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-weight: 900;
   }
 
@@ -192,7 +192,8 @@ footer {
     font-size: 30px;
   }
 }
-@media only screen and (max-width: 1090px) {
+
+@media only screen and (max-device-width: 1090px) {
   #container {
     position: static;
   }
@@ -210,12 +211,13 @@ footer {
   }
 
   header h1 {
-    width: 80%;
-    font-size: 25em;
+    /* width: 80%; */
+    font-size: 20em;
     float: left;
     padding-bottom: 5px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito', sans-serif;
     font-weight: 900;
+    color: red
   }
 
   #tagline {
