@@ -149,18 +149,20 @@ footer {
   #container {
     position: static;
   }
+
   #text {
     position: static;
   }
+
   #name {
     width: 100%;
     margin: 0;
     margin-left: 30px;
     padding: 0px;
     padding-top: 10px;
-    font-size: 58px;
-    color: red;
+    font-size: 800%;
   }
+
   #tagline {
     width: 100%;
     margin: 0;
@@ -168,12 +170,14 @@ footer {
     margin-left: 30px;
     padding-bottom: 10px;
   }
+
   .contact-links {
     margin-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 100%;
   }
+
   #first-paragraph, #middle-paragraph, #last-paragraph {
     margin: 5%;
     width: 80%;
