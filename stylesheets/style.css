@@ -158,7 +158,8 @@ footer {
     margin-left: 30px;
     padding: 0px;
     padding-top: 10px;
-    /* font-family: 'Nunito', sans-serif; */
+    font-size: 6em;
+    font-family: 'Nunito', sans-serif;
   }
   #tagline {
     width: 100%;
