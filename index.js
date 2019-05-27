@@ -3,7 +3,7 @@
 $(document).ready(function (){
   window.onscroll = function() {scroll()};
 
-  var header = document.getElementById("myHeader");
+  var header = document.getElementById("header");
 
   var sticky = header.offsetTop;
 
