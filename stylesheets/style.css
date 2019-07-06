@@ -14,7 +14,7 @@ body {
 
 #name {
   display: inline-block;
-  width: 65%;
+  width: 80%;
   padding-left: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -94,6 +94,12 @@ footer {
   border-bottom: 20px solid #254e55;
 }
 
+#bottom-image-writer {
+  opacity: 0.98;
+  border-bottom: 20px solid #254e55;
+  width: 100%;
+}
+
 .contact-links {
   display: inline-block;
   height: 45px;
@@ -115,6 +121,11 @@ footer {
   margin-left: 470px;
 }
 
+#first-paragraph-writer {
+  margin-top: 60px;
+  margin-left: 520px;
+}
+
 #middle-paragraph {
   margin-top: 120px;
 }
@@ -123,6 +134,12 @@ footer {
   margin-left: 470px;
   margin-top: 70px;
 }
+
+#last-paragraph-writer {
+  margin-left: 50px;
+  margin-top: 150px;
+}
+
 
 .sticky {
   position: fixed;
@@ -180,7 +197,7 @@ footer {
     width: 100%;
   }
 
-  #first-paragraph, #middle-paragraph, #last-paragraph {
+  #first-paragraph, #middle-paragraph, #last-paragraph, #first-paragraph-writer, #last-paragraph-writer {
     margin: 5%;
     width: 80%;
     font-size: 25px;
@@ -229,7 +246,7 @@ footer {
     margin-left: -75px;
   }
 
-  #first-paragraph, #middle-paragraph, #last-paragraph {
+  #first-paragraph, #middle-paragraph, #last-paragraph, #first-paragraph-writer, #last-paragraph-writer {
     margin: 5%;
     width: 80%;
     font-size: 25px;
